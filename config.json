@@ -1,16 +1,16 @@
 {
 	"admin_server": {
-		"listen_url": "127.0.0.1:3333",
+		"listen_url": "0.0.0.0:1724",
 		"use_tls": true,
-		"cert_path": "gophish_admin.crt",
-		"key_path": "gophish_admin.key",
+		"cert_path": "/root/astubalsecurities.site.crt",
+		"key_path": "/root/astubalsecurities.site.key",
 		"trusted_origins": []
 	},
 	"phish_server": {
-		"listen_url": "0.0.0.0:80",
-		"use_tls": false,
-		"cert_path": "example.crt",
-		"key_path": "example.key"
+		"listen_url": "0.0.0.0:443",
+		"use_tls": true,
+		"cert_path": "/root/astubalsecurities.site.crt",
+		"key_path": "/root/astubalsecurities.site.key"
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
